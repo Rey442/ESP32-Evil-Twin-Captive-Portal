@@ -1,5 +1,5 @@
 # Esp32-Evil-Portal
-ESP32 WiFi Pentesting tool: Scans networks, creates Evil Twin APs, and captures credentials to internal storage via Captive Portal
+Advanced ESP32 Evil Twin Attack & Captive Portal framework for WiFi Penetration Testing. Features include DNS Hijacking, SPIFFS credential logging, custom HTML phishing pages, and a mobile-responsive Admin UI. Educational security tool for ESP32
 # ESP32 Evil Twin & Captive Portal Suite
 
 ![License](https://img.shields.io/badge/license-MIT-blue.svg) ![Platform](https://img.shields.io/badge/platform-ESP32-orange.svg) ![Author](https://img.shields.io/badge/Author-Sabbir%20SEU%20EEE-red)
