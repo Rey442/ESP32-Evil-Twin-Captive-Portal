@@ -62,7 +62,7 @@ A standalone WiFi Penetration Testing tool for ESP32. This project creates an "E
 | Admin Dashboard | Attack Config |
 |:---:|:---:|
 Admin UI
-| [6154475466027371373](https://github.com/user-attachments/assets/6d04a204-ce3d-401a-a988-4cc8f39ba523)
+| ![6154475466027371373](https://github.com/user-attachments/assets/9a150b58-4955-4d17-a1c9-10ee785a57fc)
 
 ## 👨‍💻 Author
 
