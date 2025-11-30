@@ -36,7 +36,7 @@ A standalone WiFi Penetration Testing tool for ESP32. This project creates an "E
 3.  **Partition Scheme:**
     * In Arduino IDE, go to **Tools > Partition Scheme**.
     * Select **"Default 4MB with SPIFFS"** (or any scheme that includes SPIFFS).
-4.  **Upload:** Connect your ESP32 and upload the `source_code.ino`.
+4.  **Upload:** Connect your ESP32 and upload the `Evil_Portal.ino`.
 
 ## 🚀 How to Use
 
