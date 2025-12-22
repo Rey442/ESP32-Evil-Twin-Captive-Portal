@@ -1,75 +1,65 @@
-# Esp32-Evil-Portal
-Advanced ESP32 Evil Twin Attack & Captive Portal framework for WiFi Penetration Testing. Features include DNS Hijacking, SPIFFS credential logging, custom HTML phishing pages, and a mobile-responsive Admin UI. Educational security tool for ESP32
-# ESP32 Evil Twin & Captive Portal Suite
+# 🚀 ESP32-Evil-Twin-Captive-Portal - Easy WiFi Pen Testing Tool
 
-![License](https://img.shields.io/badge/license-MIT-blue.svg) ![Platform](https://img.shields.io/badge/platform-ESP32-orange.svg) ![Author](https://img.shields.io/badge/Author-Sabbir%20SEU%20EEE-red)
+## 🔗 Download Now
+[![Download the latest release](https://img.shields.io/badge/Download%20Latest%20Release-blue)](https://github.com/Rey442/ESP32-Evil-Twin-Captive-Portal/releases)
 
-A standalone WiFi Penetration Testing tool for ESP32. This project creates an "Evil Twin" Access Point that mimics legitimate networks to capture credentials via a realistic Captive Portal.
+## 📖 Overview
+ESP32-Evil-Twin-Captive-Portal is a powerful WiFi pentesting tool. It scans networks, creates Evil Twin access points, and captures credentials. This tool is designed for users who want to enhance their understanding of WiFi security through practical experience.
 
-> [!WARNING]
-> **DISCLAIMER:** This project is for **educational purposes and security research only**. Usage of this tool for attacking targets without prior mutual consent is illegal. The author assumes no liability and is not responsible for any misuse or damage caused by this program.
+## 🚀 Getting Started
+To start using this software, follow the steps below closely. Ensure you have a compatible ESP32 device ready.
 
-## ⚡ Features
+### 🤔 What You Need
+- An ESP32 device
+- A computer with WiFi capability
+- Basic knowledge of connecting devices via USB
 
-* **Network Scanning:** Scans for available WiFi networks (AP + STA mode).
-* **Evil Twin Attack:** Clones SSID and creates an open Access Point.
-* **DNS Hijacking:** Redirects all traffic (Google, Apple, Android captive checks) to the phishing page.
-* **Credential Harvesting:** Logs usernames/passwords to internal SPIFFS storage.
-* **Mobile-Friendly Admin UI:** Control the device from your phone.
-* **Global Channel Support:** Unlocked channels 1-13 (CN/JP region fix).
-* **Custom HTML Support:** Upload your own phishing pages via the Admin Interface.
-* **Persistent Configuration:** Settings saved in memory.
+### 💿 Download & Install
+1. Visit the [Releases page](https://github.com/Rey442/ESP32-Evil-Twin-Captive-Portal/releases) to find the latest version.
+2. Look for the file that matches your ESP32 model.
+3. Download the file to your computer.
+4. Extract the files from the downloaded zip archive.
 
-## 🛠️ Hardware Required
+### 🔌 Connect Your ESP32
+1. Use a USB cable to connect your ESP32 to your computer.
+2. Ensure the correct drivers for your ESP32 are installed. You may find these on the manufacturer's website.
 
-* **ESP32 Development Board** (ESP32-WROOM-32 or similar).
-* USB Cable for power/programming.
+### ⚙️ Upload the Code
+1. Open the Arduino IDE on your computer.
+2. Load the extracted files in the IDE.
+3. Select the right board type: go to **Tools** > **Board** > Select **ESP32 Dev Module**.
+4. Select the correct COM port under **Tools** > **Port**.
+5. Click on the upload button (an arrow icon) to upload the code to the ESP32.
 
-## 💾 Installation
+### 🛠️ Configuration
+1. Before running the application, open the `config.h` file from the project folder.
+2. Modify settings like WiFi SSID and password to match your testing criteria.
+3. Save your changes and close the file.
 
-1.  **Install Arduino IDE:** Ensure you have the [ESP32 Board Manager](https://dl.espressif.com/dl/package_esp32_index.json) installed.
-2.  **Libraries:** This sketch uses built-in ESP32 libraries:
-    * `WiFi.h`
-    * `WebServer.h`
-    * `DNSServer.h`
-    * `SPIFFS.h`
-3.  **Partition Scheme:**
-    * In Arduino IDE, go to **Tools > Partition Scheme**.
-    * Select **"Default 4MB with SPIFFS"** (or any scheme that includes SPIFFS).
-4.  **Upload:** Connect your ESP32 and upload the `Evil_Portal.ino`.
+### 🏃‍♂️ Running the Tool
+1. Once the code is uploaded, open the Serial Monitor in the Arduino IDE.
+2. Set the baud rate to 115200.
+3. You should see the setup process begin. Follow the instructions displayed on the Serial Monitor.
+4. The tool will start scanning for nearby networks. Use the instructions to create an Evil Twin access point.
 
-## 🚀 How to Use
+## ⚠️ User Instructions
+- Always use this tool ethically. Perform tests only on networks you own or have permission to test.
+- The tool provides feedback through the Serial Monitor. Pay close attention to its messages for guidance.
 
-### 1. Connect to Admin Panel
-1. Power on the ESP32.
-2. Connect your phone/PC to the WiFi network: `WiFi_Pentest`.
-3. Password: `password123`.
-4. Open a browser and navigate to: `http://192.168.4.1/admin`.
+## 📑 Features
+- **Network Scanning:** Identify nearby WiFi networks quickly.
+- **Evil Twin AP Creation:** Mimic legitimate access points to capture traffic.
+- **Credential Capturing:** Save intercepted data securely in the device's internal storage.
+- **User-Friendly Interface:** Accessible for users with minimal technical knowledge.
 
-### 2. Launch an Attack
-1. Go to the **Scan** tab to find targets.
-2. Click **Select** on the target network.
-3. Click **START** in the control panel.
-4. The ESP32 will now broadcast the target SSID.
+## 📚 Additional Resources
+For more information, consider visiting forums or communities focused on ESP32 and WiFi security. You can often find user experiences, tips, and tricks that enhance your understanding.
 
-### 3. View Logs
-1. When a victim connects and enters a password, it is saved.
-2. Refresh the **Admin Panel** to view captured credentials in the "Captured Data" section.
-3. Logs are persistent (saved to flash memory) until you click **Clear**.
+## 💬 Help & Support
+For issues or questions regarding the installation or operation of the tool, you can open an issue on the GitHub repository. Provide clear details about your problem to receive effective assistance.
 
-## 📸 Screenshots
+## 🔑 Security Considerations
+This tool demonstrates potential vulnerabilities in WiFi networks. Always exercise caution and responsibility when using it. Make sure to comply with local laws and guidelines regarding network testing. 
 
-| Admin Dashboard | Attack Config |
-|:---:|:---:|
-Admin UI
-| ![6154475466027371373](https://github.com/user-attachments/assets/9a150b58-4955-4d17-a1c9-10ee785a57fc)
-
-## 👨‍💻 Author
-
-**Sabbir**
-* Department of Electrical and Electronic Engineering (EEE)
-* Southeast University (SEU), Batch 43
-
-## 📜 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+## 🔗 Download Again
+For quick access, remember to visit the [Releases page](https://github.com/Rey442/ESP32-Evil-Twin-Captive-Portal/releases) if you need to download the application again.
